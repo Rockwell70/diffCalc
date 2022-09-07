@@ -1,0 +1,44 @@
+body {
+
+    text-align: center;
+
+}
+
+label {
+    color: "black";
+    font-size: larger;
+}
+
+fieldset {
+    align-items: center;
+    display: inline;
+    background-color: #9494FF;
+    margin: 65px auto;
+    padding: 3px 6px;
+    border: 2px solid #F5DD76;
+    box-shadow: 25px 25px 15px darkslateblue;
+}
+
+input {
+    font-size: large;
+    margin: .4em;
+    padding: 10px;
+    display:block;
+}
+
+button {
+    border-radius: 10px;
+    font-size: medium;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #4040A8;
+    color: white;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}

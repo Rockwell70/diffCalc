@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <script type="text/javascript" src="main.js" defer></script>
+  <title></title>
+</head>
+
+<body>
+  <h1 id="heading"></h1>
+  <h3 id="sub-heading"></h3>
+
+  <form id="example" action="" method="post"></form>
+  <fieldset>
+    <div>
+      <label>Starting Number:</label>
+      <input type="number" id="firstNumber" />
+    </div>
+    <div>
+      <label>Final Number:</label>
+      <input type="number" id="secondNumber" />
+    </div>
+    <div>
+        <label id="answerlabel" >Answer</label>
+<!--        <p class="answer" style="display: none"></p>-->
+        <output id="answer"></output>
+    </div>
+    <div class="button">
+      <button onclick="showDifference()">Calculate</button>
+      <button onclick="clearWindows()">Clear Entries</button>
+    </div>
+    <!-- <div id='result'></div> -->
+    <!-- <div>
+      <output id="result" type="number"></output>
+    </div> -->
+  </fieldset>
+
+</body>
+
+</html>

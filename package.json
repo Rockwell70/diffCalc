@@ -1,15 +1,17 @@
 {
   "name": "calculator-app",
+  "type": "module",
   "version": "1.0.0",
   "description": "Calculates the % difference between 2 nums",
   "main": "main.js",
   "scripts": {
-    "start": "electron"
+    "test": "jest"
   },
   "author": "Rockwell Shabani",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.19",
-    "prettier": "2.7.1"
+    "prettier": "^2.7.1",
+    "jquery": "^3.2.1"
   }
 }

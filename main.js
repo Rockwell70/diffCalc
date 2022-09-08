@@ -1,6 +1,14 @@
-const background = document.body.style.background = '#4040A8';
+$(document).ready(function () {
+  $('body')
+    .css("background-color", '#4040A8')
+    .css("font-family", 'Quicksand, sans-serif')
+    .css("text-align", 'center');
+
+});
+
+//const background = document.body.style.background = '#4040A8';
 //const font = document.body.style.fontFamily = 'Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif';
-const font = document.body.style.fontFamily = 'Quicksand, sans-serif';
+//const font = document.body.style.fontFamily = 'Quicksand, sans-serif';
 
 const heading = document.getElementById('heading');
 heading.style.color = "#F5DD76";
